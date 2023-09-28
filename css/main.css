@@ -1,1 +1,22 @@
 /* Place CSS styles here */
+
+/* media query for phones */
+@media (max-width: 480px) {
+    body {
+      background-color: teal;
+    }
+  }
+  
+  /* media query for tablet */
+  @media (min-width: 481px) and (max-width: 767px) {
+    body {
+      background-color: maroon;
+    }
+  }
+  
+  /* media query for desktop */
+  @media (min-width: 768px) {
+    body {
+      background-color: peachpuff;
+    }
+  }
