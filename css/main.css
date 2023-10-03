@@ -1,6 +1,11 @@
 /* Place CSS styles here */
 
 /* media query for phones */
+
+img {
+  width: 500px;
+}
+
 @media (max-width: 480px) {
     body {
       background-color: teal;
