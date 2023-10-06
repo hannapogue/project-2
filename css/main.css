@@ -98,4 +98,53 @@ body {
       text-align: left;
     }
   }
+  /* Hide the link that should open and close the monday-soap on small screens */
+.monday-soap .icon {
+  display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the monday-soap (.icon) */
+@media (max-width: 480px) {
+  .monday-soap {
+    justify-content: space-between;
+  }
+  .monday-soap a:not(:first-child) {display: none;}
+  .monday-soap a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the monday-soap with JavaScript when the user clicks on the icon. This class makes the monday-soap look good on small screens (display the links vertically instead of horizontally) */
+@media (max-width: 480px) {
+  .monday-soap.responsive {position: relative;}
+  .monday-soap.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .monday-soap.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.l-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  border: 0;
+}
+
   
