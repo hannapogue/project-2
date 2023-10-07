@@ -1,26 +1,57 @@
-.navigation a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 15px 15px;
-  text-decoration: none;
-  font-size: 17px;
-}
+<div class="main-wrapper">
+    <div class="featured-image-wrapper">
+      <img class="feautured-image" src="./img/outside.jpg" alt="";>
+    </div>
+    <p>Welcome to the Museum of the House Cat, a whimsical and enchanting destination dedicated to celebrating the
+      captivating world of our feline friends. Nestled in the heart of a charming town, our museum offers visitors a
+      paw-some opportunity to explore the rich history, artistry, and cultural significance of cats throughout the ages.
+      From ancient Egyptian hieroglyphics honoring revered cat deities to contemporary cat-inspired artworks, our
+      curated exhibits offer a purr-fect blend of education and entertainment for cat enthusiasts of all ages. Step into
+      a world where cats reign supreme, and embark on a delightful journey through the fascinating tales of these
+      enigmatic creatures.</p>
 
-/* Change the color of links on hover */
-.navigation a:hover {
-  background-color: #ddd;
-  color: black;
-}
 
-/* Add an active class to highlight the current page */
-.navigation a.active {
-  background-color: #04AA6D;
-  color: white;
-}
 
-/* Hide the link that should open and close the navigation on small screens */
-.navigation a.icon {
-  display: none;
-}
+    <img src="./img/inside-2.JPG" alt="">
+    <p class="info-paragraph">At the Museum of the House Cat, you'll explore diverse exhibits, including an Egyptian cat
+      burial chamber, famous cat-inspired art, and a fun "Cat-astrophe" showcase of fictional feline characters. For an
+      interactive touch, visit "Kitten Corner" to meet adoptable kittens. We offer educational programs and a gift shop
+      with unique cat-themed items, making it a must-visit destination for all cat enthusiasts.</p>
+    <div class="info-images-wrapper">
+      <img class="info-image-1" src="./img/inside-1.JPG" alt="";>
+
+    </div>
+    <h3>Kitten Corner</h3>
+    <img src="./img/kittens.jpg" alt="">
+    <p>Interested in one of our adoptable cats or want more information? Fill out our form below!</p>
+
+
+    <!-- third section -->
+      <div class="feature-item">
+        <img src="./img//kittens.jpg" alt="">
+        <h3>Item title</h3>
+        <p>words </p>
+      </div>
+
+
+        <img class="feautured-image" src="./img/outside.jpg" alt="";>
+    </div>
+    <p>Welcome to the Museum of the House Cat, a whimsical and enchanting destination dedicated to celebrating the
+      captivating world of our feline friends. Nestled in the heart of a charming town, our museum offers visitors a
+      paw-some opportunity to explore the rich history, artistry, and cultural significance of cats throughout the ages.
+     </p>
+
+
+
+    <img src="./img/inside-2.JPG" alt="">
+    <p class="info-paragraph">At the Museum of the House Cat, you'll explore diverse exhibits, including an Egyptian cat
+      burial chamber, famous cat-inspired art, and a fun "Cat-astrophe" showcase of fictional feline characters. For an
+      interactive touch, visit "Kitten Corner" to meet adoptable kittens. We offer educational programs and a gift shop
+      with unique cat-themed items, making it a must-visit destination for all cat enthusiasts.</p>
+    <div class="info-images-wrapper">
+      <img class="info-image-1" src="./img/inside-1.JPG" alt="";>
+
+    </div>
+    <h3>Kitten Corner</h3>
+    <img src="./img/kittens.jpg" alt="">
+    <p>Interested in one of our adoptable cats or want more information? Fill out our form below!</p>
